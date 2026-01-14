@@ -25,6 +25,9 @@ importers:
       vue:
         specifier: ^3.5.24
         version: 3.5.26(typescript@5.9.3)
+      vue-countup-v3:
+        specifier: 1.4.1
+        version: 1.4.1(vue@3.5.26(typescript@5.9.3))
     devDependencies:
       '@types/node':
         specifier: ^24.10.1
@@ -595,6 +598,9 @@ packages:
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
+
+  countup.js@2.9.0:
+    resolution: {integrity: sha512-llqrvyXztRFPp6+i8jx25phHWcVWhrHO4Nlt0uAOSKHB8778zzQswa4MU3qKBvkXfJKftRYFJuVHez67lyKdHg==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -1187,6 +1193,11 @@ packages:
 
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
+
+  vue-countup-v3@1.4.1:
+    resolution: {integrity: sha512-umhQyf4rGdH5tL+ZuWgnoEbq7VpqxC0NH3Yd5TfaYVggGhuD5ihMd2TuNo9PU+F+SCwIGho8Muvfu2LYQBft0A==}
+    peerDependencies:
+      vue: ^3.0.0
 
   vue-tsc@3.2.2:
     resolution: {integrity: sha512-r9YSia/VgGwmbbfC06hDdAatH634XJ9nVl6Zrnz1iK4ucp8Wu78kawplXnIDa3MSu1XdQQePTHLXYwPDWn+nyQ==}
@@ -1804,6 +1815,8 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
+  countup.js@2.9.0: {}
+
   cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
@@ -2305,6 +2318,11 @@ snapshots:
       punycode: 2.3.1
 
   vscode-uri@3.1.0: {}
+
+  vue-countup-v3@1.4.1(vue@3.5.26(typescript@5.9.3)):
+    dependencies:
+      countup.js: 2.9.0
+      vue: 3.5.26(typescript@5.9.3)
 
   vue-tsc@3.2.2(typescript@5.9.3):
     dependencies:
