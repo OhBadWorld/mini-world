@@ -1,0 +1,7 @@
+packages:
+  # 主项目
+  - 'main-project'
+  # 子目录下所有项目
+  - 'web/**'
+  # 公共目录
+  - 'common'
