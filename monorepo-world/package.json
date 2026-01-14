@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:main": "cd main-project && pnpm start",
+    "start:react1": "cd web/sub-react1 && pnpm start",
+    "build:main": "cd main-project && pnpm build",
+    "build:react1": "cd web/sub-react1 && pnpm build"
   },
   "keywords": [],
   "author": "",
